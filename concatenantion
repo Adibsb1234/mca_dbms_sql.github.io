@@ -1,0 +1,17 @@
+CREATE TABLE Employee (
+    ID number(10),
+    FirstName varchar(25),
+    LastName varchar(25),
+    Dept varchar(25)
+);
+INSERT INTO Employee (ID, FirstName, LastName, Dept)
+VALUES ('1', 'Aman', 'Kumar', 'Mca');
+
+INSERT INTO Employee (ID, FirstName, LastName, Dept)
+VALUES ('2', 'Aditya', 'Agarwal', 'Mca');
+
+
+
+select*from Employee
+
+SELECT Aditya||Agarwal as "Employee name" from Employee;
