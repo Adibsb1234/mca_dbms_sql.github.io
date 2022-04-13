@@ -1,0 +1,29 @@
+ CREATE table Student(
+rollno NUMERIC(10),
+Name VARCHAR(50),
+Branch VARCHAR(20),
+SEC VARCHAR(20)
+ );
+ 
+ INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('1','Aman','MCA','A');
+ 
+ INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('2','Arpit','MCA','B');
+ 
+ INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('3','Anjana','MCA','C');
+
+  INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('4','Raghav','MCA','D');
+ 
+  INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('5','Shivam','MCA','C');
+ 
+  INSERT INTO Student(rollno,Name,Branch,SEC)
+ VALUES('6','Aditya','MCA','A');
+ 
+SELECT*FROM Student;
+
+
+SELECT*FROM Student ORDER BY SEC,Name;
