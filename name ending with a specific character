@@ -1,0 +1,19 @@
+ CREATE table employe(
+Empid NUMERIC(10),
+Name VARCHAR(50)
+ );
+ 
+ INSERT INTO employe(Empid,Name)
+ VALUES('1','Aman');
+ 
+INSERT INTO employe(Empid,Name)
+ VALUES('2','Ayush');
+ 
+INSERT INTO employe(Empid,Name)
+ VALUES('3','Anamika');
+
+SELECT*FROM employe;
+
+SELECT*FROM employe WHERE name like'%a';
+
+SELECT*FROM employe WHERE name like'A___'
