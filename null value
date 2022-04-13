@@ -1,0 +1,23 @@
+ CREATE table Student(
+rollno NUMERIC(10),
+Name VARCHAR(50),
+Branch VARCHAR(20),
+DOR VARCHAR(20)
+ );
+ 
+ INSERT INTO Student(rollno,Name,Branch,DOR)
+ VALUES('1','Aman','MCA','07-Aug-2021');
+ 
+ INSERT INTO Student(rollno,Name,Branch,DOR)
+ VALUES('2','Arpit','MCA','');
+ 
+ INSERT INTO Student(rollno,Name,Branch,DOR)
+ VALUES('3','Anjana','MCA','17-Aug-2021');
+
+  INSERT INTO Student(rollno,Name,Branch,DOR)
+ VALUES('4','Raghav','MCA','');
+ 
+SELECT*FROM Student;
+
+
+SELECT*FROM Student WHERE DOR is null;
